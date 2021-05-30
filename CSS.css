@@ -54,7 +54,13 @@ font-family:Arial, Helvetica, sans-serif;
     top: 85%;
     left: 55%;
   }
-
+@media (min-width:400px)
+{
+  .col-md-6
+  {
+    width: 200px;
+  }
+}
    @media (min-width: 1100px) {
     #f3 {
       left: 60%;
